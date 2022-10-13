@@ -1,0 +1,38 @@
+type salesforce.BotVariableOperationTranslation {
+  annotations {
+    serviceid metadataType {
+    }
+    boolean hasMetaFile {
+    }
+    string folderType {
+    }
+    string folderContentType {
+    }
+    string suffix {
+    }
+    string dirName {
+    }
+  }
+  salesforce.BotMessageTranslation botMessages {
+  }
+  salesforce.BotQuickReplyOptionTranslation botQuickReplyOptions {
+  }
+  string quickReplyOptionTemplate {
+  }
+  salesforce.BotMessageTranslation retryMessages {
+  }
+  string type {
+    _restriction = {
+      enforce_value = false
+      values = [
+        "Collect",
+        "Set",
+        "SetConversationLanguage",
+        "Unset",
+      ]
+    }
+  }
+  string variableOperationIdentifier {
+  }
+  metadataType = "BotVariableOperationTranslation"
+}

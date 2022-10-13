@@ -1,0 +1,11 @@
+salesforce.ApexClass DreamforceClassTest {
+  apiVersion = 55
+  status = "Active"
+  fullName = "DreamforceClassTest"
+  content = file("salesforce/Records/ApexClass/DreamforceClassTest.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.DreamforceClass
+    },
+  ]
+}

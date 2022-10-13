@@ -1,0 +1,11 @@
+salesforce.ApexClass GitClassTest {
+  apiVersion = 55
+  status = "Active"
+  fullName = "GitClassTest"
+  content = file("salesforce/Records/ApexClass/GitClassTest.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.GitClass
+    },
+  ]
+}

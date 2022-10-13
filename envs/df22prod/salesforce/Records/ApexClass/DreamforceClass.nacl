@@ -1,0 +1,6 @@
+salesforce.ApexClass DreamforceClass {
+  apiVersion = 55
+  status = "Active"
+  fullName = "DreamforceClass"
+  content = file("salesforce/Records/ApexClass/DreamforceClass.cls")
+}

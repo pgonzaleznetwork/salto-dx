@@ -1,0 +1,6 @@
+salesforce.ApexClass FakeTests {
+  apiVersion = 55
+  status = "Active"
+  fullName = "FakeTests"
+  content = file("salesforce/Records/ApexClass/FakeTests.cls")
+}

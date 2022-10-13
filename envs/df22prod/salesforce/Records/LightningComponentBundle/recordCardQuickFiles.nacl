@@ -1,0 +1,17 @@
+salesforce.LightningComponentBundle recordCardQuickFiles {
+  apiVersion = 55
+  isExposed = false
+  fullName = "recordCardQuickFiles"
+  lwcResources = {
+    lwcResource = {
+      recordCardQuickFiles_js@v = {
+        source = file("salesforce/Records/LightningComponentBundle/recordCardQuickFiles/recordCardQuickFiles.js")
+        filePath = "lwc/recordCardQuickFiles/recordCardQuickFiles.js"
+      }
+      recordCardQuickFiles_html@v = {
+        source = file("salesforce/Records/LightningComponentBundle/recordCardQuickFiles/recordCardQuickFiles.html")
+        filePath = "lwc/recordCardQuickFiles/recordCardQuickFiles.html"
+      }
+    }
+  }
+}

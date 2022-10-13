@@ -1,0 +1,6 @@
+salesforce.ApexClass GitClass {
+  apiVersion = 55
+  status = "Active"
+  fullName = "GitClass"
+  content = file("salesforce/Records/ApexClass/GitClass.cls")
+}
